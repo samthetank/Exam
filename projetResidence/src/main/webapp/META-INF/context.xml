@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/rainbowAlpaga">
+    <Resource MaxIdle="30" auth="Container" driverClassName="com.mysql.jdbc.Driver"
+              logAbandonned="true" maxActive="100" maxWait="10000" name="jdbc/residenceCarrefourbd"
+              password="" removeAbandonned="true" removeAbandonnedTimeout="60"
+              type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/residenceCarrefourbd?autoReconnect=true"
+              username="root"/>
+</Context>

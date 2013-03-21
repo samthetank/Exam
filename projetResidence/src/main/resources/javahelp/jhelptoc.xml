@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE toc PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 2.0//EN" "http://java.sun.com/products/javahelp/toc_2_0.dtd">
+<toc version="2.0">
+    <tocitem target="Index" text="Accueil">
+    <tocitem target="IndexExamenOutil" text="Accueil Examen Outil">
+     <tocitem target="DocumentationExamenOutil" text="Documentation Quelconque"/>
+    </tocitem>
+        <tocitem target="Utilisateur" text="Manuel de l'utilisateur">
+            <tocitem target="Utilisateur.UtiliserApplication" text="Utiliser l'application"/>
+            <tocitem target="Utilisateur.Services" text="Services" >
+                <tocitem target="Utilisateur.Services.Appartements" text="Appartements"/>
+                <tocitem target="Utilisateur.Services.Residents" text="Résidents"/>
+                <tocitem target="Utilisateur.Services.ListeAttente" text="Liste d'attente"/>
+                <tocitem target="Utilisateur.Services.Utilisateurs" text="Utilisateurs"/>
+                <tocitem target="Utilisateur.Services.Logs" text="Logs"/>
+                <tocitem target="Utilisateur.Services.Baux" text="Baux"/>
+            </tocitem>
+            <tocitem target="Utilisateur.Droits" text="Droits" >
+                <tocitem target="Utilisateur.Droits.Admin" text="Admin"/>
+                <tocitem target="Utilisateur.Droits.GestionP" text="Gestion +"/>
+                <tocitem target="Utilisateur.Droits.Gestion" text="Gestion"/>
+                <tocitem target="Utilisateur.Droits.SurveillantP" text="Surveillant +"/>
+                <tocitem target="Utilisateur.Droits.Surveillant" text="Surveillant"/>
+            </tocitem>
+        </tocitem>
+        <tocitem target="Programmeur" text="Manuel du programmeur">
+            <tocitem target="Programmeur.Controleur.Introduction" text="Controleurs" >
+                <tocitem target="Programmeur.Controleur.Connect" text="Connexion"/>
+                <tocitem target="Programmeur.Controleur.FrontControleur" text="Front controleur"/>
+                <tocitem target="Programmeur.Controleur.AbstractFormulaire" text="Formulaire"/>
+                <tocitem target="Programmeur.Controleur.AbstractListe" text="Liste"/>
+                <tocitem target="Programmeur.Controleur.Autres" text="Autres"/>
+            </tocitem>
+            <tocitem target="Programmeur.Donnees.Introduction" text="Données" >
+                <tocitem target="Programmeur.Donnees.AbstractDataAccess" text="AbstractDataAccess"/>
+                <tocitem target="Programmeur.Donnees.AbstractObjectProvider" text="AbstractObjectProvider"/>
+                <tocitem target="Programmeur.Donnees.SqlObjectProvider" text="SqlObjectProvider"/>
+            </tocitem>
+            <tocitem target="Programmeur.ReglesAffaires.Introduction" text="Règles d'affaires" >
+                <tocitem target="Programmeur.ReglesAffaires.Regles" text="Règles"/>
+            </tocitem>
+            <tocitem target="Programmeur.Hierarchie.Introduction" text="Hiérarchies de dossiers" >
+                <tocitem target="Programmeur.Hierarchie.Hierarchie" text="Hiérarchies"/>
+            </tocitem>
+            <tocitem target="Programmeur.Filtres.Introduction" text="Filtres" >
+                <tocitem target="Programmeur.Filtres.filtres" text="Filtres employés"/>
+            </tocitem>
+            <tocitem target="Programmeur.Serveur.Introduction" text="Serveur" >
+                <tocitem target="Programmeur.Serveur.Serveur" text="Serveur utilisé"/>
+            </tocitem>
+        </tocitem>
+   </tocitem>
+</toc>

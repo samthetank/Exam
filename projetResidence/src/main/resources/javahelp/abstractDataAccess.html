@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="jhelp.css"/>
+    </head>
+    <body>
+        <div class="box">
+            <h1>Abstract data access</h1>
+            <p>
+                Cette classe est, en fait, le point d'accès à la base de donnée. Toute transaction 
+                entre l'application et la base de donnée residenceCarrefourBD est effectuée ici.Ce que
+                nous entendons par le terme "transaction" sont toutes les différentes requêtes effectuées
+                sur la base de données tel qu'un ajout, sélection de données précise, une modification
+                ou une suppression.
+            </p>
+            <h2>Fonctionnement</h2>
+            <p>
+                Dans le cas d'une requête d'obtention d'une ou plusieurs données, un appel à la méthode
+                requêteAvecRetour sera effectué.<br><br>
+                Dans le cas d'une requête d'ajout, de modification ou de suppression de donnée, un appel à
+                la méthode requêteSansRetour sera effectué.(Sans retour, car cela ne retourne que le nombre de
+                lignes affectés).<br><br>
+                Les méthodes requêteAvecRetour et requêteSansRetour reçoivent une requête SQL formatée,
+                crée une connexion et exécute cette requête sur la base de données.<br><br>
+                Les autres méthodes tel que Obtenir, insérer, modifier et supprimer forment les requêtes
+                SQL formatées à l'aide des différents éléments requis(clé, nom de table) pour ensuite
+                faire appel à la bonne méthode de requête.
+            </p>
+            <h2>Bogues</h2>
+            <h4>À voir...</h4>
+        </div>
+    </body>
+</html>

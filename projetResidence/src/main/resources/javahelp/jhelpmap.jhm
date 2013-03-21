@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 2.0//EN" "http://java.sun.com/products/javahelp/map_2_0.dtd">
+<map version="2.0">
+    <mapID target="IndexExamenOutil" url="indexExamenOutil.html"/>
+    <mapID target="DocumentationExamenOutil" url="DocumentationQuelconqueExamen.html"/>
+    <mapID target="Index" url="index.html"/>
+        <mapID target="Utilisateur" url="indexUtilisateur.html"/>
+            <mapID target="Utilisateur.UtiliserApplication" url="utiliserApplication.html"/>
+            <mapID target="Utilisateur.Services" url="indexServices.html"/>
+                <mapID target="Utilisateur.Services.Appartements" url="appartements.html"/>
+                <mapID target="Utilisateur.Services.Residents" url="residents.html"/>
+                <mapID target="Utilisateur.Services.ListeAttente" url="listeAttente.html"/>
+                <mapID target="Utilisateur.Services.Utilisateurs" url="utilisateurs.html"/>
+                <mapID target="Utilisateur.Services.Logs" url="logs.html"/>
+                <mapID target="Utilisateur.Services.Baux" url="baux.html"/>
+            <mapID target="Utilisateur.Droits" url="indexDroits.html"/>
+                <mapID target="Utilisateur.Droits.Admin" url="admin.html"/>
+                <mapID target="Utilisateur.Droits.GestionP" url="gestionp.html"/>
+                <mapID target="Utilisateur.Droits.Gestion" url="gestion.html"/>
+                <mapID target="Utilisateur.Droits.SurveillantP" url="surveillantp.html"/>
+                <mapID target="Utilisateur.Droits.Surveillant" url="surveillant.html"/>
+        <mapID target="Programmeur" url="programmeur.html"/>
+            <mapID target="Programmeur.Controleur.Introduction" url="indexControleurs.html" />
+                <mapID target="Programmeur.Controleur.Connect" url="seConnecterProg.html"/>
+                <mapID target="Programmeur.Controleur.FrontControleur" url="frontControleur.html"/>
+                <mapID target="Programmeur.Controleur.AbstractFormulaire" url="formulaire.html"/>
+                <mapID target="Programmeur.Controleur.AbstractListe" url="liste.html"/>
+                <mapID target="Programmeur.Controleur.Autres" url="autres.html"/>
+            <mapID target="Programmeur.Donnees.Introduction" url="indexDonnees.html"/>
+                <mapID target="Programmeur.Donnees.AbstractDataAccess" url="abstractDataAccess.html"/>
+                <mapID target="Programmeur.Donnees.AbstractObjectProvider" url="abstractObjectProvider.html"/>
+                <mapID target="Programmeur.Donnees.SqlObjectProvider" url="sqlObjectProvider.html"/>
+            <mapID target="Programmeur.ReglesAffaires.Introduction" url="indexRegles.html"/>
+                <mapID target="Programmeur.ReglesAffaires.Regles" url="regles.html"/>
+            <mapID target="Programmeur.Hierarchie.Introduction" url="indexHierarchie.html"/>
+                <mapID target="Programmeur.Hierarchie.Hierarchie" url="hierarchie.html"/>            
+            <mapID target="Programmeur.Filtres.Introduction" url="indexFiltres.html"/>
+                <mapID target="Programmeur.Filtres.filtres" url="filtres.html"/>
+            <mapID target="Programmeur.Serveur.Introduction" url="indexServeur.html"/>
+                <mapID target="Programmeur.Serveur.Serveur" url="serveur.html"/>
+</map>

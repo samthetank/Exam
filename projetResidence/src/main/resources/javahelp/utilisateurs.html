@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="jhelp.css"/>
+    </head>
+    <body>
+        <h1>Utilisateurs</h1>
+            <p>
+                La page "Utilisateurs" est la page que l'utilisateur se sert pour accéder à la liste des utilisateurs.
+            </p>
+        <h2>Liste des utilisateurs</h2>
+            <p>La liste des utilisateurs contient les informations suivantes:</p>
+            <ul>
+                <li><b>No</b>: numéro de l'utilisateur</li>
+                <li><b>Nom</b>: nom de l'utilisateur</li>
+                <li><b>Prénom</b>: prénom de l'utilisateur</li>
+                <li><b>Nom d'utilisateur</b>: nom d'utilisateur</li>
+                <li><b>Rôle</b>: rôle de l'utilisateur (droits)</li>
+            </ul>
+            <img src='./images/actionliste.png' style ='border:solid 1px darkgrey;' alt='bouton-ajouter' title='Ligne de navigation' />
+            <p>
+                La ligne de navigation (ci-dessus) permet de choisir le nombre d'entrées (lignes) à afficher, permet de
+                savoir combien de pages d'entrées y a t-il et permet de naviguer dans les pages (flèches rouges).
+            </p>
+        <h2>Actions sur les utilisateurs</h2>
+            <p>Les actions possibles sur un utilisateur sont (selon les droits utilisateurs):</p>
+            <ul>
+                <li><b>Ajouter un utilisateur</b></li>
+                <li><b>Modifier un utilisateur</b></li>
+                <li><b>Effacer un utilisateur</b></li>
+            </ul>
+            <h3>Ajouter</h3>
+            <img src='./images/add.png' alt='bouton-ajouter' title='Bouton ajouter' />
+            <p>
+                Lors d'un clic sur le bouton ajouter (ci-dessus), un formulaire d'ajout d'utilisateurs s'ouvre. 
+                Ce formulaire contient 6 champs à remplir dont 1 obligatoires et 2 boutons.
+            </p>
+            <ul>
+                <li><b>Champ Nom</b>: saisie du nom de l'utilisateur</li>
+                <li><b>Champ Prénom</b>: saisie du prénom de l'utilisateur</li>
+                <li><b>Champ Courriel</b>: saisie du courriel de l'utilisateur</li>
+                <li><b>Champ Nom d'utilisateur</b>: saisie du nom d'utilisateur</li>
+                <li><b>Champ Mot de passe</b>: saisie du mot de passe de l'utilisateur</li>
+                <li><b>Champ Rôle</b>(obligatoire): choix du rôle de l'utilisateur</li>
+                <li><b>Bouton Ajouter</b>: ajoute un nouveau utilisateur avec les données saisies dans le formulaire 
+                    et redirige vers la liste des utilisateurs</li>
+                <li><b>Bouton Annuler</b>: annule l'ajout en cours et redirige vers la liste des utilisateurs</li>
+            </ul> 
+            <h3>Modifier</h3>
+            <img src='./images/pencil2.png' alt='bouton-modifier' title='Bouton modifier' />
+            <p>
+                Lors d'un clic sur le bouton modifier (ci-dessus), un formulaire de modification d'utilisateur s'ouvre avec 
+                les champs pré-remplis avec les données de l'utilisateurs à modifier. 
+                Ce formulaire contient 6 champs à remplir dont 1 obligatoires et 2 boutons.
+            </p>
+            <ul>
+                <li><b>Champ Nom</b>: nom de l'utilisateur à modifier</li>
+                <li><b>Champ Prénom</b>: prénom de l'utilisateur à modifier</li>
+                <li><b>Champ Courriel</b>: courriel de l'utilisateur à modifier</li>
+                <li><b>Champ Nom d'utilisateur</b>: nom d'utilisateur de l'utilisateur à modifier</li>
+                <li><b>Champ Mot de passe</b>: mot de passe de l'utilisateur à modifier</li>
+                <li><b>Champ Rôle</b>(obligatoire):rôle de l'utilisateur à modifier</li>
+                <li><b>Bouton Mettre à jour</b>: met à jour l'utilisateur à modifier avec les données saisies dans le formulaire 
+                    et redirige vers la liste des utilisateurs</li>
+                <li><b>Bouton Annuler</b>: annule la modification en cours et redirige vers la liste des utilisateurs</li>
+            </ul>
+            <h3>Effacer</h3>
+            <img src='./images/delete.png' alt='bouton-effacer' title='Bouton effacer' />
+            <p>
+                Lors d'un clic sur le bouton effacer (ci-dessus), une boite de dialogue s'ouvre avec 
+                une demande de confirmation pour la suppression de l'utilisateur.<br/>
+                Si la suppression est confirmée, on revient sur la liste des utilisateurs et la ligne de l'utilisateur 
+                à effacer disparaît.<br/>
+                Sinon, on revient sur la liste des utilisateurs sans modifications.
+            </p>
+    </body>
+</html>

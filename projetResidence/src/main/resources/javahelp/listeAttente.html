@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="jhelp.css"/>
+    </head>
+    <body>
+        <h1>Liste d'attente</h1>
+        <p>
+            La page "Liste Attente" est la page que l'utilisateur se sert pour accéder à la liste des
+            personnes en attente d'un logement libre.
+        </p>
+        <h2>Liste d'attente</h2>
+        <p>La liste des personnes en attentes contient les informations suivantes:</p>
+        <ul>
+            <li><b>nom</b>: nom de la personne en attente</li>
+            <li><b>prénom</b>: prénom de la personne en attente</li>
+            <li><b>Numéro de tel.</b>: le numéro de téléphone de la personne à contacter</li>
+            <li><b>Date</b>: La date de l'inscription à la liste d'attente</li>
+            <li><b>Contacté</b>: La confirmation que la personne en attente a été contactée</li>
+            <li><b>Préférence</b>: préférence de la dimension de l'appartement</li>
+        </ul>
+        <img src='./images/actionliste.png' style ='border:solid 1px darkgrey;' alt='bouton-ajouter' title='Ligne de navigation' />
+        <p>
+            La ligne de navigation (ci-dessus) permet de choisir le nombre d'entrées (lignes) à afficher, permet de
+            savoir combien de pages d'entrées il y a et permet de naviguer dans les pages (flèches rouges).
+        </p>
+        <h2>Actions sur la liste d'attente</h2>
+        <p>Les actions possibles sur la liste d'attente sont (selon les droits utilisateurs):</p>
+        <ul>
+            <li><b>Ajouter une inscription</b></li>
+            <li><b>Modifier une inscription</b></li>
+            <li><b>Effacer une inscription</b></li>
+            <li><b>Transférer une inscription</b></li>
+        </ul>
+        <h3>Ajouter</h3>
+        <img src='./images/add.png' alt='bouton-ajouter' title='Bouton ajouter' />
+        <p>
+            Lors d'un clic sur le bouton ajouter (ci-dessus), un formulaire d'ajout d'une inscription à la liste
+            d'attente s'ouvre. Ce formulaire contient 10 champs à remplir dont 6 obligatoires et 2 boutons.
+        </p>
+        <ul>
+            <li><b>Champ Nom </b>(obligatoire): saisie du nom de la personne en attente.</li>
+            <li><b>Champ Prénom </b>(obligatoire): saisie du prénom de la personne en attente.</li>
+            <li><b>Champ Numéro de tel.</b>(obligatoire): saisie du numéro de téléphone sous forme de ###-###-####.</li>
+            <li><b>Champ Courriel</b>: saisie du courriel de la personne en attente.</li>
+            <li><b>Champ Préférences d'appartement</b>: choix du nombre de pièces de l'appartement désiré.</li>
+            <li><b>Champ Préférences d'étage</b>: choix du nombre de pièces de l'appartement désiré.</li>
+            <li><b>Champ Confirmé</b>: Si l'inscription à été confirmé par un responsable.</li>
+            <li><b>Champ Commentaires personnes</b>: saisie du commentaire de la personne inscrite.</li>
+            <li><b>Champ Commentaires administration</b>: saisie du commentaire de l'administration.</li>
+            <li><b>Champ Commentaires refus</b>: saisie du commentaire en cas de refus.</li>
+            <li><b>Bouton Ajouter</b>: ajoute un nouvelle inscription avec les données saisies dans le formulaire 
+                et redirige vers la liste d'attente</li>
+            <li><b>Bouton Annuler</b>: annule l'ajout en cours et redirige vers la liste d'attente</li>
+        </ul> 
+        <h3>Modifier</h3>
+        <img src='./images/pencil2.png' alt='bouton-modifier' title='Bouton modifier' />
+        <p>
+            Lors d'un clic sur le bouton modifier (ci-dessus), un formulaire de modification d'inscription s'ouvre avec 
+            les champs pré-remplis avec les données de l'appartement à modifier. 
+            Ce formulaire contient 10 champs dont 3 obligatoires, et 2 boutons.
+        </p>
+        <ul>
+            <li><b>Champ Nom </b>(obligatoire): nom de la personne en attente à modifier.</li>
+            <li><b>Champ Prénom </b>(obligatoire): prénom de la personne en attente à modifier.</li>
+            <li><b>Champ Numéro de tel.</b>(obligatoire): numéro de téléphone sous forme de ###-###-####.</li>
+            <li><b>Champ Courriel</b>: courriel de la personne en attente à modifier.</li>
+            <li><b>Champ Préférences d'appartement</b>: choix du nombre de pièces de l'appartement désiré.</li>
+            <li><b>Champ Préférences d'étage</b>: choix du nombre de pièces de l'appartement désiré.</li>
+            <li><b>Champ Confirmé</b>: Si l'inscription à été confirmé par un responsable.</li>
+            <li><b>Champ Commentaires personnes</b>: saisie du commentaire de la personne inscrite.</li>
+            <li><b>Champ Commentaires administration</b>: saisie du commentaire de l'administration.</li>
+            <li><b>Champ Commentaires refus</b>: saisie du commentaire en cas de refus.</li>
+            <li><b>Bouton Ajouter</b>: ajoute un nouvelle inscription avec les données saisies dans le formulaire 
+                et redirige vers la liste d'attente</li>
+            <li><b>Bouton Annuler</b>: annule l'ajout en cours et redirige vers la liste d'attente</li>
+        </ul>
+        <h3>Effacer</h3>
+        <img src='./images/delete.png' alt='bouton-effacer' title='Bouton effacer' />
+        <p>
+            Lors d'un clic sur le bouton effacer (ci-dessus), une boite de dialogue s'ouvre avec 
+            une demande de confirmation pour la suppression de l'appartement.<br/>
+            Si la suppression est confirmée, on revient sur la liste d'attente et la ligne de l'inscription 
+            à effacer disparaît.<br/>
+            Sinon, on revient sur la liste d'attente sans modifications.
+        </p>
+        <h3>Transférer</h3>
+        <img src='./images/transferer.png' alt='bouton-transferer' title='Bouton transférer' />
+        <p>
+            Ce bouton sert à transférer une personne concernant une inscription dans la liste des résidents 
+            (le transfère peut être fait seulement si l'inscription est confirmée).
+        </p>
+    </body>
+</html>

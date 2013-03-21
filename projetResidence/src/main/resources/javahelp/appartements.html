@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="jhelp.css"/>
+    </head>
+    <body>
+        <h1>Appartements</h1>
+        <p>
+            La page "Appartements" est la page dont l'utilisateur se sert pour accéder à la liste des appartements.
+        </p>
+        <h2>Liste des appartements</h2>
+        <p>La liste des appartements contient les informations suivantes:</p>
+        <ul>
+            <li><b>#</b>: numéro de l'appartement</li>
+            <li><b>Étage</b>: étage de l'appartement</li>
+            <li><b>Phase</b>: phase du bâtiment où se situe l'appartement</li>
+            <li><b>Dimension</b>: dimension de l'appartement (P: petit, M: moyen, G: grand)</li>
+            <li><b>Nb pièces</b>: nombre de pièces dans l'appartement</li>
+        </ul>
+        <img src='./images/actionliste.png' style ='border:solid 1px darkgrey;' alt='bouton-ajouter' title='Ligne de navigation' />
+        <p>
+            La ligne de navigation (ci-dessus) permet de choisir le nombre d'entrées (lignes) à afficher, permet de
+            savoir combien de pages d'entrées il y a et permet de naviguer dans les pages (flèches rouges).
+        </p>
+        <h2>Actions sur les appartements</h2>
+        <p>Les actions possibles sur un appartement sont (selon les droits utilisateurs):</p>
+        <ul>
+            <li><b>Ajouter un appartement</b></li>
+            <li><b>Modifier un appartement</b></li>
+            <li><b>Effacer un appartement</b></li>
+        </ul>
+        <h3>Ajouter</h3>
+        <img src='./images/add.png' alt='bouton-ajouter' title='Bouton ajouter' />
+        <p>
+            Lors d'un clic sur le bouton ajouter (ci-dessus), un formulaire d'ajout d'appartement s'ouvre. 
+            Ce formulaire contient 6 champs à remplir dont 2 obligatoires et 2 boutons.
+        </p>
+        <ul>
+            <li><b>Champ Appartement # </b>(obligatoire): saisie du numéro d'appartement</li>
+            <li><b>Champ Étage </b>(obligatoire): choix de l'étage de l'appartement</li>
+            <li><b>Champ Phase</b>: choix de la phase de l'appartement</li>
+            <li><b>Champ Taille</b>: choix de la dimension de l'appartement</li>
+            <li><b>Champ Nb de pièces</b>: choix du nombre de pièces de l'appartement</li>
+            <li><b>Champ Description</b>: saisie d'une description de l'appartement</li>
+            <li><b>Bouton Ajouter</b>: ajoute un nouvel appartement avec les données saisies dans le formulaire 
+                et redirige vers la liste des appartements</li>
+            <li><b>Bouton Annuler</b>: annule l'ajout en cours et redirige vers la liste des appartements</li>
+        </ul> 
+        <h3>Modifier</h3>
+        <img src='./images/pencil2.png' alt='bouton-modifier' title='Bouton modifier' />
+        <p>
+            Lors d'un clic sur le bouton modifier (ci-dessus), un formulaire de modification d'appartement s'ouvre avec 
+            les champs pré-remplis avec les données de l'appartement à modifier. 
+            Ce formulaire contient 6 champs dont 2 obligatoires, un en lecture seul (non modifiable) et 2 boutons.
+        </p>
+        <ul>
+            <li><b>Champ Appartement # </b>(lecture seul): numéro de l'appartement à modifier</li>
+            <li><b>Champ Étage </b>(obligatoire): étage de l'appartement à modifier</li>
+            <li><b>Champ Phase</b>: phase de l'appartement à modifier</li>
+            <li><b>Champ Taille</b>: dimension de l'appartement à modifier</li>
+            <li><b>Champ Nb de pièces</b>: nombre de pièces de l'appartement à modifier</li>
+            <li><b>Champ Description</b>: description de l'appartement à modifier</li>
+            <li><b>Bouton Mettre à jour</b>: met à jour l'appartement à modifier avec les données saisies dans le formulaire 
+                et redirige vers la liste des appartements</li>
+            <li><b>Bouton Annuler</b>: annule la modification en cours et redirige vers la liste des appartements</li>
+        </ul>
+        <h3>Effacer</h3>
+        <img src='./images/delete.png' alt='bouton-effacer' title='Bouton effacer' />
+        <p>
+            Lors d'un clic sur le bouton effacer (ci-dessus), une boite de dialogue s'ouvre avec 
+            une demande de confirmation pour la suppression de l'appartement.<br/>
+            Si la suppression est confirmée, on revient sur la liste des appartements et la ligne de l'appartement 
+            à effacer disparaît.<br/>
+            Sinon, on revient sur la liste des appartements sans modifications.
+        </p>
+    </body>
+</html>

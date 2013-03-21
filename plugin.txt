@@ -1,0 +1,5 @@
+Checkstyle
+http://www.sickboy.cz/checkstyle/autoupdate/autoupdate-3.xml
+
+FindBug, PMD
+http://deadlock.netbeans.org/hudson/job/sqe/lastStableBuild/artifact/build/full-sqe-updatecenter/updates.xml 

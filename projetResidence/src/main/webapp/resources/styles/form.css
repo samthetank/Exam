@@ -1,0 +1,198 @@
+.formulaire{
+    width: 100%;
+    margin: 0 auto;
+    font-family: Lucida Grande, sans-serif;
+    font-size: 15px;
+}
+
+.formulaire h1{
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: black;
+}
+
+.formulaire li{
+    height: 50px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.formulaire li.last{
+    height: 80px;
+    display: inline-block;
+    width: 32%
+}
+
+.formulaire label{
+    display: inline-block;
+    float: left;
+    width: 100px;
+    color: darkred;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    padding-top: 7px;
+}
+
+.formulaire input.button{
+    height: 30px;
+}
+
+.formulaire div.button{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.formulaire fieldset{
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0em;
+    -webkit-padding-start: 0em;
+    margin-left: 0;
+    float: left;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3px;
+    border: none;
+}
+
+.formulaire fieldset label{
+    color: black;
+}
+
+.formulaire fieldset label input{
+    width: 30px;
+}
+
+.formulaire legend{
+    color: darkred;
+    width: 220px;
+}
+
+.formulaire textarea{
+    resize: none;
+}
+
+.formulaire textarea:hover,
+.formulaire input.saisie:hover {
+    border: 1px solid #C0C0C0;
+    -moz-box-shadow:    inset  0  4px 4px -4px lightgray;
+    -webkit-box-shadow: inset  0  4px 4px -4px lightgray;
+    box-shadow:        inset  0  4px 4px -4px lightgray;
+}
+
+.formulaire textarea,
+.formulaire input.saisie {
+    padding: 7px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid whitesmoke;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    display: block;
+}
+/* CSS POUR VALIDATION VISUELLE */
+=======
+.formulaire{
+    width: 100%;
+    margin: 0 auto;
+    font-family: Lucida Grande, sans-serif;
+    font-size: 15px;
+}
+
+.formulaire ul {
+    margin-bottom: 0px;
+}
+
+.formulaire h1{
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: black;
+}
+
+.formulaire li{
+    height: 50px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.formulaire li.last{
+    height: 80px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 32%
+}
+
+.formulaire label{
+    display: inline-block;
+    float: left;
+    color: darkred;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    padding-top: 7px;
+    margin-right: 20px;
+}
+
+.formulaire input.button{
+    height: 30px;
+}
+
+.formulaire div.button{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.formulaire fieldset{
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0em;
+    -webkit-padding-start: 0em;
+    margin-left: 0;
+    float: left;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3px;
+    border: none;
+}
+
+.formulaire fieldset label{
+    color: black;
+}
+
+.formulaire fieldset label input{
+    width: 30px;
+}
+
+.formulaire legend{
+    color: darkred;
+    width: 220px;
+}
+
+.formulaire textarea{
+    resize: none;
+}
+
+.formulaire textarea:hover,
+.formulaire input.saisie:hover {
+    border: 1px solid #C0C0C0;
+    -moz-box-shadow:    inset  0  4px 4px -4px lightgray;
+    -webkit-box-shadow: inset  0  4px 4px -4px lightgray;
+    box-shadow:        inset  0  4px 4px -4px lightgray;
+}
+
+.formulaire textarea,
+.formulaire input.saisie {
+    padding: 7px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid whitesmoke;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+}
+
+.formulaire input.saisie {
+    float: right;
+    margin-right: 60%;
+}
+

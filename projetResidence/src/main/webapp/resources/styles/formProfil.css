@@ -1,0 +1,39 @@
+/* 
+    Document   : formProfil
+    Created on : 2013-02-21, 08:14:54
+    Author     : 1399017
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*************
+ * MENU PROFIL
+ *************/
+
+legend.lgdProfil{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+label.lbl{
+    display: inline-block;
+    float: left;
+    width: 30%;
+    margin-left: 10%;
+}
+
+fieldset.fdstProfil{
+    float: none;
+}
+
+input.inptProfil{
+    margin-left: 10%;
+    padding: 7px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid whitesmoke;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    display: block;
+    float: left;
+}
+

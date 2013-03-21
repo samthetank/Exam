@@ -1,0 +1,39 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link type="text/css" rel="stylesheet" href="jhelp.css"/>
+    </head>
+    <body>
+        <div class="box">
+            <h1>Sql object provider (SOP)</h1>
+            <p>
+                C'est ici que l'implémentation des différentes méthodes d'accès propres à chaque objets d'affaire
+                est faite. Le SOP s'occupe également de la transformation des objets d'affaire en un format
+                compatible pour les différentes transactions faite sur la base de données par l'appel des
+                fonctions d'accès du ADA. Le procédé inverse est également fait lors de la récupération des
+                données dans la BD.
+            </p>
+            <h2>Fonctionnement</h2>
+            <p>
+                Dans le cas d'une insertion ou d'une modification, avant l'appel de la fonction du ADA approprié,
+                une version map(clef,valeur) de l'objet d'affaire sera créé par l'appel de la méthode GetMapAvec'X'()
+                pour préparé l'objet à être envoyer au niveau de la base de données.<br><br>
+
+                Pour une suppression, un simple appel à la fonction effacerDonnees du ADA sera fait.<br><br>
+
+                Dans le cas de récupération de données, la version map de l'objet retourné par la fonction de
+                récupération des données du ADA sera alors traité par la fonction Get'X'AvecMap() pour nous retourné
+                la version "objet d'affaire" construite.
+            </p>
+            <h2>Bogues</h2>
+            <h4>À voir...</h4>
+        </div>
+    </body>
+</html>
+

@@ -1,0 +1,33 @@
+/*****************
+ * TABLE CSS
+ *****************/
+.sortable {min-width:700px; border: 1px solid transparent; border-bottom:none; margin:0 auto 15px; color: Black; }
+.sortable th {background-color:#D6D6D6; color: #3D0000; border-right:solid 1px lightgray; border-top:solid 1px gray; border-bottom: solid 1px gray; cursor: pointer; font-size:12px; padding:6px 8px 8px;}
+.sortable td {padding: 4px 6px 4px 6px; border-bottom:1px solid #c6d5e1;}
+.sortable .head h3 {background:url('images/sort.gif') 7px center no-repeat; cursor:pointer; padding-left:18px;}
+.sortable .desc, .sortable .asc {background: #A65959;border-left: solid 1px gray;border-right: solid 1px gray;}
+.sortable .desc h3 {background:url('images/desc.gif') 7px center no-repeat; cursor:pointer; padding-left:18px}
+.sortable .asc h3 {background:url('images/asc.gif') 7px  center no-repeat; cursor:pointer; padding-left:18px}
+.sortable .head:hover{color: gray;}
+.sortable .desc:hover, .sortable .asc:hover {background: #A65959;}
+.sortable .evenrow td {background:#fff}
+.sortable .oddrow td {background: whitesmoke}
+.sortable td.evenselected {background:#EBEBEB}
+.sortable td.oddselected {background:#D6D6D6}
+#table{position: relative; font-family: Lucida Grande,sans-serif; z-index: 1;}
+#controls { float: right; height:50px; font-family: Lucida Grande,sans-serif;color:black;vertical-align: right;}
+#perpage {float:left; width:200px;margin-top: 10px;}
+#perpage select {float:left; font-size:11px}
+#perpage span {float:left; margin:2px 0 0 5px}
+#navigation {float:left; width:180px; text-align:center;margin-top: 10px;}
+#navigation img {cursor:pointer}
+#text {float: right;margin-top: 10px;}
+#unread td{  background-color: #FEEEEE; }
+#unread .evenrow td { background: red; }
+#unread .oddrow td { background: red; }
+#unread td.evenselected { background: #FDDDDD; }
+#unread td.oddselected { background: #FCCCCC; }
+#rowlast { border-right: solid 1px black; }
+#tdControle {padding: 0px; width:26px; }
+#tdControle img {width: 20px; cursor: pointer; }
+#tdControle button { border: 0; background: transparent; margin:0px;}

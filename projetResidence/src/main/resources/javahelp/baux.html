@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="jhelp.css"/>
+    </head>
+    <body>
+        <h1>Baux</h1>
+        <p>
+            La page "Baux" est la page que l'utilisateur se sert pour accéder à la liste des baux.
+        </p>
+        <h2>Liste des baux</h2>
+        <p>La liste des baux contient les informations suivantes:</p>
+        <ul>
+            <li><b>#</b>: numéro du bail</li>
+            <li><b>Début</b>: date de début du bail</li>
+            <li><b>Fin</b>: date de fin du bail</li>
+            <li><b>Loyer</b>: montant du loyer noté sur le bail</li>
+            <li><b>Locataire</b>: locataire signataire du bail</li>
+            <li><b>Colocataire</b>: colocataire noté sur le bail</li>
+            <li><b>Dernier mois acquitté</b>: mois du dernier acquittement</li>
+        </ul>
+        <img src='./images/actionliste.png' style ='border:solid 1px darkgrey;' alt='bouton-ajouter' title='Ligne de navigation' />
+        <p>
+            La ligne de navigation (ci-dessus) permet de choisir le nombre d'entrées (lignes) à afficher, permet de
+            savoir combien de pages d'entrées il y a et permet de naviguer dans les pages (flèches rouges).
+        </p>
+        <h2>Actions sur les baux</h2>
+        <p>Les actions possibles sur un bail sont (selon les droits utilisateurs):</p>
+        <ul>
+            <li><b>Ajouter un bail</b></li>
+            <li><b>Historique des baux</b></li>
+            <li><b>Effacer un bail</b></li>
+        </ul>
+        <h3>Ajouter</h3>
+        <img src='./images/add.png' alt='bouton-ajouter' title='Bouton ajouter' />
+        <p>
+            Lors d'un clic sur le bouton ajouter (ci-dessus), un formulaire d'ajout de bail s'ouvre. 
+            Ce formulaire contient 8 champs à remplir dont 4 obligatoires et 2 boutons.
+        </p>
+        <ul>
+            <li><b>Champ Date de début</b>(obligatoire): saisie de la date de début du bail</li>
+            <li><b>Champ Date de fin</b>(obligatoire): saisie de la date de fin du bail</li>
+            <li><b>Champ Loyer mensuel</b>(obligatoire): saisie du montant du loyer noté sur le bail</li>
+            <li><b>Champ Appartement</b>: choix d'un appartement lié au bail</li>
+            <li><b>Champ Locataire</b>(obligatoire): choix du résident lié au bail</li>
+            <li><b>Champ Colocataire</b>: choix d'autre(s) résident(s) colocataire(s)</li>
+            <li><b>Champ Est signataire</b>: si le locataire est signataire ou pas</li>
+            <li><b>Champ Commentaires personne</b>: saisie d'un commentaire</li>
+            <li><b>Bouton Ajouter</b>: ajoute un nouveau bail avec les données saisies dans le formulaire 
+                et redirige vers la liste des baux</li>
+            <li><b>Bouton Annuler</b>: annule l'ajout en cours et redirige vers la liste des baux</li>
+        </ul> 
+        <h3>Historique</h3>
+        <img src='./images/book.png' alt='bouton-historique' title='Bouton historique' />
+        <p>Le bouton historique permet de voir tous les baux (même les complétés).</p>
+        <h3>Effacer</h3>
+        <img src='./images/delete.png' alt='bouton-effacer' title='Bouton effacer' />
+        <p>
+            Lors d'un clic sur le bouton effacer (ci-dessus), une boite de dialogue s'ouvre avec 
+            une demande de confirmation pour la suppression du bail.<br/>
+            Si la suppression est confirmée, on revient sur la liste des baux et la ligne du bail 
+            à effacer disparaît.<br/>
+            Sinon, on revient sur la liste des baux sans modifications.
+        </p>
+    </body>
+</html>

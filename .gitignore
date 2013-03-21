@@ -1,0 +1,22 @@
+# Ignore de netbeans #
+target/
+.sonar/
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Ignore de Java #
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+/ConsommationInternet/nbproject/private/
+
+# Fichiers système #
+.DS_Store

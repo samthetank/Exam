@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link type="text/css" rel="stylesheet" href="jhelp.css"/>
+    </head>
+    <body>
+        <div class="box">
+            <h1>Abstract object provider (AOP) </h1>
+            <p>
+                Cette classe permet de créer une couche d'abstraction entre les objets d'affaire et les
+                fonctions d'accès à la base de données. La création d'une instance de cette classe est
+                donc requise pour accéder au niveau des fonctions du SqlObjectProvider. Il faut également
+                noté que c'est dans le AOP que les méthodes de gestion de connexion ainsi que la méthode
+                gérant la création d'instance du dataSource sont implémentées pour le niveau du ADA.
+            </p>
+            <h2>Fonctionnement</h2>
+            <p>
+                Pour obtenir une connexion, il suffit de faire appel à la méthode getConnection() qui, par la
+                création d'une instance du dataSource si elle n'est pas déjà créée, nous renvoie un objet de
+                connexion à la base de données residenceCarrefourBD.<br><br>
+
+                Pour fermer une connexion, la méthode freeConnection() s'occupera d'effectué cette tâche proprement.
+                <br><br>
+
+                Finalement, pour avoirs accès aux différentes méthodes abstraites implémentées dans le SOP, un objet
+                AbstractObjectProvider sera créer lors de l'appel de la fonction getInstance() implémenté dans le SOP.
+            </p>
+            <h2>Bogues</h2>
+            <h4>À voir...</h4>
+        </div>
+    </body>
+</html>
