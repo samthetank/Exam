@@ -86,7 +86,7 @@ public final class CompteNombre {
         final int nombre;
         nombre = 10;
         try {
-            System.out.println("Nombres non répétés :" + compterNombreNonRepetes(nombre));
+            System.out.println("Nombres non test gitrépétés :" + compterNombreNonRepetes(nombre));
         } catch (Exception ex) {
             Logger.getLogger(CompteNombre.class.getName()).log(Level.SEVERE, null, ex);
         }
